@@ -1,6 +1,7 @@
 # 8-Bit Adder-Subtractor
 
 The 8-Bit Adder-Subtractor module is implemented in Verilog and provides the capability to perform addition and subtraction operations on 8-bit operands. It is a versatile module that can be used in various digital circuit designs.
+Refer to subtractor.v for the design code.
 
 ## Features
 
@@ -11,11 +12,11 @@ The 8-Bit Adder-Subtractor module is implemented in Verilog and provides the cap
 
 ## Usage
 
-1. Clone the repository or download the Verilog file (`AdderSubtractor.v`).
+1. Clone the repository or download the Verilog file (`subtractor.v`).
 
-2. Include the `AdderSubtractor.v` file in your Verilog project.
+2. Include the `subtractor.v` file in your Verilog project.
 
-3. Instantiate the `AdderSubtractor` module in your design:
+3. Instantiate the `subtractor` module in your design:
 
    ```verilog
    AdderSubtractor addsub (
