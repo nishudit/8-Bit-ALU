@@ -1,16 +1,27 @@
 # 8-Bit Adder-Subtractor
 
-This is an 8-bit adder-subtractor module implemented in Verilog. The module takes two 8-bit operands, `operandA` and `operandB`, and performs either addition or subtraction based on the `select` input. The result is provided in the `result` output, and the carry-out is indicated by the `carryOut` output.
+The 8-Bit Adder-Subtractor module is implemented in Verilog and provides the capability to perform addition and subtraction operations on 8-bit operands. It is a versatile module that can be used in various digital circuit designs.
+
+## Features
+
+- Performs 8-bit addition and subtraction operations.
+- Supports two's complement subtraction.
+- Provides carry-out and overflow/borrow indicators.
+- Simple and reusable design.
 
 ## Usage
 
-Instantiate the `AdderSubtractor` module in your Verilog design and connect the inputs and outputs as follows:
+1. Clone the repository or download the Verilog file (`AdderSubtractor.v`).
 
-```verilog
-AdderSubtractor addsub (
-  .operandA(operandA),
-  .operandB(operandB),
-  .select(select),
-  .result(result),
-  .carryOut(carryOut)
-);
+2. Include the `AdderSubtractor.v` file in your Verilog project.
+
+3. Instantiate the `AdderSubtractor` module in your design:
+
+   ```verilog
+   AdderSubtractor addsub (
+     .operandA(operandA),
+     .operandB(operandB),
+     .select(select),
+     .result(result),
+     .carryOut(carryOut)
+   );
