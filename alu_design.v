@@ -1,4 +1,4 @@
-module ripplemod(a, b, cin, sum, cout);
+module ripplemod(a, b, cin, sum, cout); hoajmamdkawmw
 
 input [07:0] a;
 
