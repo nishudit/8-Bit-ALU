@@ -58,4 +58,7 @@ To verify the functionality of the ALU, a testbench can be created. The testbenc
 
 ## Conclusion
 
-The 8-bit ALU provides
+The 8-bit ALU provides support for 14 instructions, allowing you to perform various arithmetic and logical operations on 8-bit binary numbers. By instantiating the ALU module and providing the appropriate inputs, you can easily incorporate the ALU functionality into your Verilog designs.
+
+For a detailed implementation of the 8-bit ALU, please refer to the provided Verilog code.
+
